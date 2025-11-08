@@ -1,0 +1,6 @@
+console.log('Node.js Console Example')
+console.log('Arguments:', process.argv.slice(2))
+if (process.argv[2]) console.log(`Hello ${process.argv[2]}`)
+console.error('This is an error message')
+console.table([{name:'Alice',age:24},{name:'Bob',age:27}])
+process.exit(0)
